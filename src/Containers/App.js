@@ -1,9 +1,9 @@
 import './App.css';
 import React from "react";
 
-import GridComponent from "./grid";
-import UserDetails from "./user-details";
-import {SummaryActive, SummaryUsers} from "./summaries";
+import GridComponent from "../Components/grid/GridComponent";
+import UserDetails from "../Components/user-detail/UserDetails";
+import {SummaryActive, SummaryUsers} from "../Components/summaries";
 import {Link, Route, Routes} from "react-router-dom";
 
 function App() {
